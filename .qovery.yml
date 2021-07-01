@@ -1,0 +1,11 @@
+---
+application:
+  name: "imagetosticker"
+  project: "whatsap-stickerbot"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-imagetosticker"
+  routes:
+  - application_name: "imagetosticker"
+    paths:
+    - "/*"
