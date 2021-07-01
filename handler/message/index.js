@@ -7,7 +7,8 @@ const { msgFilter, color, processTime, is } = require('../../utils')
 const mentionList = require('../../utils/mention')
 const { uploadImages } = require('../../utils/fetcher')
 
-const { menuId, menuEn } = require('./text') // Indonesian & English menu
+let { menu, menuEn } = require('./text') 
+const menuId = menuEn; 
 
 module.exports = msgHandler = async (client, message) => {
     try {
